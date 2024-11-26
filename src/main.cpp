@@ -26,6 +26,13 @@ class $modify(LevelSearchLayer) {
 	Uses sfx slider: FMODAudioEngine::sharedEngine()->playEffect();
 
 
+
+
+    Get bool setting: Mod::get()->getSettingValue<bool>("")
+
+	Get int setting: Mod::get()->getSettingValue<int64_t>("") == 0
+	
+
 	*/
 
 };
