@@ -1,0 +1,29 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "ninsam.to_the_recent_taaaab",
+	"name": "To The Recent TAAAAB!",
+	"version": "v1.0.0",
+	"developer": "NinSam",
+	"description": "",
+	"tags": ["joke"],
+	"resources":{
+
+		"files":["resources/evw_recent_tab.ogg"]
+	},
+	"settings": {
+
+		"enable-voiceline":{
+			"name": "Enable Voiceline",
+			"description": "Enable/Disable the voiceline without having to restart the game",
+			"type": "bool",
+			"default": true
+		}
+
+	}
+}
