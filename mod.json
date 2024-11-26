@@ -16,6 +16,9 @@
 
 		"files":["resources/evw_recent_tab.ogg"]
 	},
+	"links": {
+		"source": "https://github.com/NinSam/To-The-Recent-TAAAAB"
+	},
 	"settings": {
 
 		"enable-voiceline":{
