@@ -15,12 +15,16 @@ class $modify(LevelSearchLayer) {
 	}
 
 	/*
+	
 
 	Idea from @Random_person921
+
+	from here: https://www.youtube.com/watch?v=khNOxO_uq80&t=25s
 	
 	Uses music slider: FMODAudioEngine::sharedEngine()->playMusic();
 
 	Uses sfx slider: FMODAudioEngine::sharedEngine()->playEffect();
+
 
 	*/
 
