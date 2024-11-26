@@ -13,4 +13,15 @@ class $modify(LevelSearchLayer) {
 			FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab.ogg"_spr);
 		}
 	}
+
+	/*
+
+	Idea from @Random_person921
+	
+	Uses music slider: FMODAudioEngine::sharedEngine()->playMusic();
+
+	Uses sfx slider: FMODAudioEngine::sharedEngine()->playEffect();
+
+	*/
+
 };
