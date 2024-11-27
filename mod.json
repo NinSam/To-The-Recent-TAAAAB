@@ -8,13 +8,13 @@
 	},
 	"id": "ninsam.to_the_recent_taaaab",
 	"name": "To The Recent TAAAAB!",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "NinSam",
 	"description": "Clicking the recent tab will play the iconic evw line!",
 	"tags": ["joke"],
 	"resources":{
 
-		"files":["resources/evw_recent_tab.ogg"]
+		"files":["resources/*ogg"]
 	},
 	"links": {
 		"source": "https://github.com/NinSam/To-The-Recent-TAAAAB"
