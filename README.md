@@ -1,4 +1,4 @@
-# TO THE RECENT TAAAAB!
+# To The Recent TAAAAB!
 
 Mod by [NinSam](https://gdbrowser.com/u/20754112) 
 
