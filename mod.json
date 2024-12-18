@@ -1,5 +1,5 @@
 {
-	"geode": "4.0.1",
+	"geode": "4.1.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "ninsam.to_the_recent_taaaab",
 	"name": "To The Recent TAAAAB!",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "NinSam",
 	"description": "Clicking the recent tab will play the iconic evw line!",
 	"tags": ["joke"],
