@@ -12,7 +12,14 @@ class $modify(LevelSearchLayer) {
 
 		if (Mod::get()->getSettingValue<bool>("enable-voiceline")){
 
-		srand(time(0));
+			if (Mod::get()->getSettingValue<bool>("fix-audio-overlap")){
+
+				FMODAudioEngine::sharedEngine()->m_globalChannel->stop();
+				FMODAudioEngine::sharedEngine()->m_system->update();
+				
+			}
+
+		srand(time(nullptr));
 		int random = rand() % 3 + 1;
 
 		switch(random){
@@ -30,16 +37,8 @@ class $modify(LevelSearchLayer) {
 			break;
 
 		}
-			
+
 		}
 
 	}
-
-
-
-
-	
-
-
-
 };

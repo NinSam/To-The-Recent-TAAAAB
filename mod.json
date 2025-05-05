@@ -34,6 +34,12 @@
 			"description": "Enable/Disable the voiceline without having to restart the game",
 			"type": "bool",
 			"default": true
+		},
+		"fix-audio-overlap":{
+			"name": "Fix Audio Overlapping",
+			"description": "Fixes the audio overlapping when clicking the recent tab too quickly",
+			"type": "bool",
+			"default": true
 		}
 
 	}
