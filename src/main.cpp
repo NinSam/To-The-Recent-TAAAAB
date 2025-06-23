@@ -19,24 +19,24 @@ class $modify(LevelSearchLayer) {
 				
 			}
 
-		srand(time(nullptr));
-		int random = rand() % 3 + 1;
+		    srand(time(nullptr));
+		    int random = rand() % 3 + 1;
 
-		switch(random){
+		    switch(random){
 			
-			case 1: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab.ogg"_spr);
+			    case 1: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab.ogg"_spr);
 
-			break;
+			    break;
 
-			case 2: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab_1.ogg"_spr);
+			    case 2: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab_1.ogg"_spr);
 
-			break;
+			    break;
 
-			case 3: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab_2.ogg"_spr);
+			    case 3: FMODAudioEngine::sharedEngine()->playEffect("evw_recent_tab_2.ogg"_spr);
 
-			break;
+			    break;
 
-		}
+	        }
 
 		}
 
