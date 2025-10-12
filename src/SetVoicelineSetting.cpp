@@ -49,7 +49,7 @@ protected:
         auto screenSize = CCDirector::sharedDirector()->getWinSize();
 
         auto sprite = CCSprite::createWithSpriteFrameName("GJ_playMusicBtn_001.png");
-        sprite->setScale(0.5f);
+        sprite->setScale(0.6f);
 
         auto label = CCLabelBMFont::create("1", "bigFont.fnt");
         auto label1 = CCLabelBMFont::create("2", "bigFont.fnt");
@@ -70,17 +70,17 @@ protected:
         m_button4 = CCMenuItemSpriteExtra::create(sprite, this, menu_selector(SetVoicelineSettingNode::onAudio5));
 
 
-        this->getButtonMenu()->addChildAtPosition(m_button, Anchor::Center, CCPoint{-40,-8});
-        this->getButtonMenu()->addChildAtPosition(m_button1, Anchor::Center, CCPoint{-10,-8});
-        this->getButtonMenu()->addChildAtPosition(m_button2, Anchor::Center, CCPoint{20,-8});
-        this->getButtonMenu()->addChildAtPosition(m_button3, Anchor::Center, CCPoint{50,-8});
-        this->getButtonMenu()->addChildAtPosition(m_button4, Anchor::Center, CCPoint{80,-8});
+        this->getButtonMenu()->addChildAtPosition(m_button, Anchor::Center, CCPoint{-55,-7});
+        this->getButtonMenu()->addChildAtPosition(m_button1, Anchor::Center, CCPoint{-22,-7});
+        this->getButtonMenu()->addChildAtPosition(m_button2, Anchor::Center, CCPoint{11,-7});
+        this->getButtonMenu()->addChildAtPosition(m_button3, Anchor::Center, CCPoint{44,-7});
+        this->getButtonMenu()->addChildAtPosition(m_button4, Anchor::Center, CCPoint{77,-7});
 
-        this->getButtonMenu()->addChildAtPosition(label, Anchor::Center, CCPoint{-40,12});
-        this->getButtonMenu()->addChildAtPosition(label1, Anchor::Center, CCPoint{-10,12});
-        this->getButtonMenu()->addChildAtPosition(label2, Anchor::Center, CCPoint{20,12});
-        this->getButtonMenu()->addChildAtPosition(label3, Anchor::Center, CCPoint{50,12});
-        this->getButtonMenu()->addChildAtPosition(label4, Anchor::Center, CCPoint{80,12});
+        this->getButtonMenu()->addChildAtPosition(label, Anchor::Center, CCPoint{-55,14});
+        this->getButtonMenu()->addChildAtPosition(label1, Anchor::Center, CCPoint{-22,14});
+        this->getButtonMenu()->addChildAtPosition(label2, Anchor::Center, CCPoint{11,14});
+        this->getButtonMenu()->addChildAtPosition(label3, Anchor::Center, CCPoint{44,14});
+        this->getButtonMenu()->addChildAtPosition(label4, Anchor::Center, CCPoint{77,14});
 
         this->getButtonMenu()->setContentWidth(180);
         this->getButtonMenu()->updateLayout();
