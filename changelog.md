@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.0
+
+- Added an option to set a voiceline instead of being randomized
+- Added two more voicelines
+- Internal changes to the randomized voicelines
+
 ## v1.0.4
 
 - Added iOS Jitless support

@@ -1,5 +1,5 @@
 {
-	"geode": "4.6.1",
+	"geode": "4.9.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "ninsam.to_the_recent_taaaab",
 	"name": "To The Recent TAAAAB!",
-	"version": "v1.0.4",
+	"version": "v1.1.0",
 	"developer": "NinSam",
 	"description": "Clicking the recent tab will play the iconic evw line!",
 	"dependencies": {
@@ -40,7 +40,28 @@
 			"description": "Fixes the audio overlapping when clicking the recent tab too quickly",
 			"type": "bool",
 			"default": true
+		},
+		"title-set-voiceline":{
+			"name": "Set Voiceline",
+			"type": "title",
+			"description": "Allows you to set a voiceline instead of being randomized"
+		},
+		"enable-set-voiceline":{
+			"name": "Enable",
+			"type": "bool",
+			"default": false
+		},
+		"set-voiceline":{
+			"name": "Set Voiceline",
+			"type": "string",
+			"one-of": ["1/5", "2/5", "3/5", "4/5", "5/5"],
+			"default": "1/5",
+			"enable-if": "enable-set-voiceline"
+		},
+		"set-voiceline-audio":{
+			"name": "Voicelines",
+			"type": "custom:set-voiceline-audio",
+			"enable-if": "enable-set-voiceline"
 		}
-
 	}
 }
