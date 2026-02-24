@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.1
+
+- Ported to GD 2.2081 & Geode v5.0.1
+- Removed Dependency: Node IDs
+
 ## v1.1.0
 
 - Added an option to set a voiceline instead of being randomized
